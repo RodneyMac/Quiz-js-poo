@@ -35,7 +35,7 @@ export const data = [
         answer: "if (a==0) alert (a);"
     },
     {
-        question: "Para concatenar cadenas de caracteres en Javascript se usa el carácter:",
+        question: "Para concatenar cadenas de caracteres en JavaScript se usa el carácter:",
         choices: ["& (ampersand)", "+ (más)"],
         answer: "+ (más)"
     },
