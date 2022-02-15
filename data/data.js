@@ -10,7 +10,7 @@ export const data = [
         answer: "< script > y < /script >"
     },
     {
-        question: "La llamada al código Javascript debe colocarse en:",
+        question: "La llamada al código JavaScript debe colocarse en:",
         choices: ["La sección Body de la página", "Puede colocarse en la sección Head o en Body"],
         answer: "Puede colocarse en la sección Head o en Body"
     },
@@ -25,12 +25,12 @@ export const data = [
         answer: "Return"
     },
     {
-        question: "Para terminar las instrucciones en Javascript se utiliza:",
+        question: "Para terminar las instrucciones en JavaScript se utiliza:",
         choices: ["Un punto y coma o un salto de línea", "Un punto y coma"],
         answer: "Un punto y coma o un salto de línea"
     },
     {
-        question: "¿Cuál de estas instrucciones está correctamente escrita en Javascript?",
+        question: "¿Cuál de estas instrucciones está correctamente escrita en JavaScript?",
         choices: ["if (a==0) alert (a);", "if (a==0) { print [a] }"],
         answer: "if (a==0) alert (a);"
     },
