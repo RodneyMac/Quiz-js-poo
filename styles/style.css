@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@400;500;700&family=Kite+One&family=Montserrat:wght@100;200;300;400;600&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100;300;700&family=Source+Code+Pro:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #052b53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz {
+    background: #E3F6F5;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.title {
+    color: #123d6b;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.question {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    color: #1a3544;
+}
+
+.button {
+    background-color: #0952a0;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+    outline: 0px;
+    transition: all 1s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #0e3b6b;
+}
+
+.progress {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.current-index,
+.total-progress {
+    color: #0952a0;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+h1 {
+    color: #123d6b;
+}
+
+.puntaje-final {
+    font-family: 'Roboto', sans-serif;
+    color: #0952a0;
+}
